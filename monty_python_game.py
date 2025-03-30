@@ -63,14 +63,14 @@ while True:
             if question2 == "to find the holy grail":
                 print("Correct!")
                 question3 = input("What is your favorite color?").lower()
-                if question3 == "blue":
+                if question3 == "blue" or question3 == "yellow":
                     print("Yes! You have passed the test and may safely cross the bridge.")
                     print("Congratulations, you have completed your quest! \n Though you never found the grail, you have memories to last a lifetime! \n(And you're still alive!)")
                     break
-                elif question3 == "yellow":
-                    print("Yes! You have passed the test and may safely cross the bridge.")
-                    print("Congratulations, you have completed your quest!")
-                    break
+                # elif question3 == "yellow":
+                #     print("Yes! You have passed the test and may safely cross the bridge.")
+                #     print("Congratulations, you have completed your quest!")
+                #     break
                 else:
                     print("NO! \nYou are hurled from the bridge into oblivion!")
                     break
